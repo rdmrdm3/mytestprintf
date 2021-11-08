@@ -112,10 +112,10 @@ int main(void)
 
 	printf("\n\n\n$$$$$$$$$$$$$$$$\n");
 
-printf(" / %d\n", ft_putnbr_ui_base((unsigned long int)-9223372036854775807, "1234567890abcdef"));
-printf(" / %d\n", ft_putnbr_ui_base((unsigned long int)-1, "1234567890abcdef"));
-printf(" / %d\n", ft_putnbr_ui_base((unsigned long int)9223372036854775807, "1234567890abcdef"));
+//printf(" / %d\n", ft_putnbr_ui_base((unsigned long int)-9223372036854775807, "1234567890abcdef"));
+//printf(" / %d\n", ft_putnbr_ui_base((unsigned long int)-1, "1234567890abcdef"));
+//printf(" / %d\n", ft_putnbr_ui_base((unsigned long int)9223372036854775807, "1234567890abcdef"));
 	printf("\n\n test d'erreur\n");
-	printf(" trop de parametres %c ", c, c);
-	printf(" trop peu de parametres %c %c ", c);
+//	printf(" trop de parametres %c ", c, c);
+//	printf(" trop peu de parametres %c %c ", c);
 }
